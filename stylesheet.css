@@ -54,6 +54,10 @@ a{
     padding-right: 10px;
 }
 
+.bottom-right.old{
+    background-color: #2a76b1;
+}
+
 .bottom-right>a{
     color: white;
 }
