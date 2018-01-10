@@ -8,55 +8,87 @@
 <body>
     <div class="header">
         <h1>njeff</h1>
-        <p>random odds and ends.</p>
+        <p>random odds and ends.
+            <span style="float:right;">
+                <a href="https://jeffreyni.blogspot.com"><img src="img/blogger.svg"></a>
+                <a href="https://github.com/njeff"><img src="img/GitHub-Mark-64px.png"></a>
+                <a href="https://www.linkedin.com/in/jeffreyni/">in</a>
+            </span>
+        </p>
     </div>
     <div class="content">
-        <p>I'm a student currently studying electrical engineering and computer science.</p>
+        <p>Hello! My name is Jeffrey Ni, and I'm a student currently studying electrical engineering and computer science.</p>
         <p>Here are a few of my projects:</p>
-        <ul>
-            <li><a href="https://github.com/njeff/raytracer0">raytracer</a> (java raytracer based on <em>Ray Tracing in One Weekend</em>)</li>
-            <li><a href="https://github.com/njeff/atlas">atlas</a> (timelapse controller)</li>
-            <li><a href="https://github.com/njeff/nixie-clock">nixie-clock</a> (nixie tube clock hardware and software; 
-                <a href="http://www.instructables.com/id/SMD-Nixie-Clock/">instructables</a>)</li>
-        </ul>
         <div class="projects">
-            <div class="img-cont">
-                <img class="center-cropped" src="img/pot_metal.png" width="100%">
-                <div class="bottom-right">
-                    <a href="https://github.com/njeff/raytracer0">Raytracer (2017)</a>
+             <a name="raytracer" href="https://github.com/njeff/raytracer0">
+                <div class="img-cont">
+                    <img class="center-cropped" src="img/pot_metal.png" width="100%">
+                    <div class="bottom-right">
+                        <a href="https://github.com/njeff/raytracer0">Raytracer (2017)</a>
+                    </div>
                 </div>
+            </a>
+            <div class="subsection">
+                A Java raytracer based on the one described in the <em>Ray Tracing in One Weekend</em> series.
             </div>
-            <div class="img-cont">
-                <img class="center-cropped" src="img/atlas.jpg" width="100%">
-                <div class="bottom-right">
-                    <a href="https://github.com/njeff/atlas">Atlas: Timelapse Motion Control (2017-)</a>  
+            <a name="atlas" href="https://github.com/njeff/atlas">
+                <div class="img-cont">
+                    <img class="center-cropped" src="img/atlas.jpg" width="100%">
+                    <div class="bottom-right">
+                        <a href="https://github.com/njeff/atlas">Atlas: Timelapse Motion Control (2017-)</a>  
+                    </div>
                 </div>
+            </a>
+            <div class="subsection">
+                A timelapse motion control system that is intended to build off of my previous slider. It uses a Wii nunchuck for input and is designed to control three axes.
+                It is currently on hold, as the encoders on the motors I have are faulty, and I am currently busy with school.
             </div>
-            <div class="img-cont">
-                <img class="center-cropped" src="img/nixie.jpg" width="100%">
-                <div class="bottom-right">
-                    <a href="http://www.instructables.com/id/SMD-Nixie-Clock/">Nixie Tube Clock (2015)</a>
+            <a name="nixie" href="http://www.instructables.com/id/SMD-Nixie-Clock/">
+                <div class="img-cont">
+                    <img class="center-cropped" src="img/nixie.jpg" width="100%">
+                    <div class="bottom-right">
+                        <a href="http://www.instructables.com/id/SMD-Nixie-Clock/">Nixie Tube Clock (2015)</a>
+                    </div>
                 </div>
+            </a>
+            <div class="subsection">
+                A custom Nixie tube clock that can show the time and date, display the temperature, and be used as a timer. The PCB was designed in KiCAD and the AVR was programmed in C with AtmelStudio.
+                I wrote up an Instructables (linked by the image) so others could build this clock too. <a href="https://github.com/njeff/nixie-clock">Github</a>
             </div>
-            <div class="img-cont">
-                <img class="center-cropped" src="img/atlas_v0.jpg" width="100%">
-                <div class="bottom-right old">
-                    <a href="https://jeffreyni.blogspot.com/2015/04">Linear Timelapse Motion (2015)</a>
+            <a name="av0" href="https://jeffreyni.blogspot.com/2015/04">
+                <div class="img-cont">
+                    <img class="center-cropped" src="img/atlas_v0.jpg" width="100%">
+                    <div class="bottom-right old">
+                        <a href="https://jeffreyni.blogspot.com/2015/04">Linear Timelapse Motion (2015)</a>
+                    </div>
                 </div>
+            </a>
+            <div class="subsection">
+                A simple timelapse slider that had an encoder for input and a menu interface. It used a stepper motor and belt to run along a rail.
             </div>
-            <div class="img-cont">
-                <img class="center-cropped" src="img/cnc.jpg" width="100%">
-                <div class="bottom-right old">
-                    <a href="https://jeffreyni.blogspot.com/search/label/CNC">DIY CNC (2014-)</a>
+            <a name="cnc" href="https://jeffreyni.blogspot.com/search/label/CNC">
+                <div class="img-cont">
+                    <img class="center-cropped" src="img/cnc.jpg" width="100%">
+                    <div class="bottom-right old">
+                        <a href="https://jeffreyni.blogspot.com/search/label/CNC">DIY CNC (2014-)</a>
+                    </div>
                 </div>
+            </a>
+            <div class="subsection">
+                A CNC I made out of MDF; the initial design was the JGRO, but I have since modified it. I design parts in Inventor or Fusion 360 and use VCarve to generate the toolpaths.
+                The system is run by LinuxCNC.
             </div>
-            <div class="img-cont">
+            <div name="wordclock" class="img-cont">
                 <img class="center-cropped" src="img/wordclock.jpg" width="100%">
                 <div class="bottom-right old">
                     <a href="">Word Clock (2012)</a>
                 </div>
             </div>
+            <div class="subsection">
+                A simple word clock that I built following an <a href="http://www.instructables.com/id/Sleek-word-clock/">Instructables</a>.
+                I modified the design by adding in a light sensor for dimming and used ULN2803s for controlling the LEDs.
+            </div>
         </div>
-        <p>And here is my <a href="https://jeffreyni.blogspot.com">blog with assorted project documentation</a>.</p>
+        <p>More can be found at my <a href="https://jeffreyni.blogspot.com">blog</a>, which has assorted build logs and other smaller projects involving my CNC, photography, and more.
     </div>
 </body>

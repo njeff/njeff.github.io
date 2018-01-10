@@ -30,6 +30,16 @@ a{
     font-size: 24px;
 }
 
+.header a{
+    font-weight: 700;
+    color: black;
+}
+
+.header img{
+    height: 0.8em;
+    padding-right: 0.25em;
+}
+
 .subsection{
     font-family: 'Noto Serif';
     background-color: #F6F6F6;
